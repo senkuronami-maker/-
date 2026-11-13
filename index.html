@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="일러스트와 드로잉 작품을 모아둔 아트 포트폴리오">
+  <title>ATELIER — Art Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#home">ATELIER<span>.</span></a>
+    <nav aria-label="주 메뉴">
+      <a href="#works">WORKS</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <a class="top-cta" href="#works">작품 보기 <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="red-dot"></span> PERSONAL ART ARCHIVE</p>
+        <h1>상상한 것을<br><em>그림으로</em> 기록하다.</h1>
+        <p class="hero-desc">일러스트, 캐릭터 디자인, 드로잉까지<br>나만의 시선으로 만든 작품을 모은 공간입니다.</p>
+        <a class="line-link" href="#works">EXPLORE THE WORKS <span>↓</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="art-frame">
+          <div class="art-placeholder hero-placeholder">
+            <span class="placeholder-mark">A.</span>
+            <span>YOUR ARTWORK<br>GOES HERE</span>
+          </div>
+          <span class="frame-index">FIG. 001 / SELECTED WORK</span>
+        </div>
+        <div class="vertical-note">DRAW · CREATE · REPEAT</div>
+      </div>
+      <div class="hero-bottom"><span>INDEPENDENT ARTIST PORTFOLIO</span><span>SEOUL, KR</span><span>2026 — PRESENT</span></div>
+    </section>
+
+    <section class="works section" id="works">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / SELECTED WORKS</p><h2>작품 아카이브<span>.</span></h2></div>
+        <p class="section-note">작품을 선택하면 자세한 정보를 볼 수 있습니다.</p>
+      </div>
+      <div class="filters" role="group" aria-label="작품 분류">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="illustration">ILLUSTRATION</button>
+        <button class="filter" data-filter="character">CHARACTER</button>
+        <button class="filter" data-filter="drawing">DRAWING</button>
+      </div>
+      <div class="gallery">
+        <article class="work-card" data-category="illustration">
+          <button class="work-open" data-title="붉은 잔상" data-type="ILLUSTRATION" data-year="2026" data-description="색과 명암을 활용해 장면의 분위기를 표현한 일러스트입니다.">
+            <div class="work-image image-one"><span>01</span><b>ADD<br>IMAGE</b></div>
+            <div class="work-info"><div><h3>붉은 잔상</h3><p>ILLUSTRATION · 2026</p></div><span class="arrow">↗</span></div>
+          </button>
+        </article>
+        <article class="work-card" data-category="character">
+          <button class="work-open" data-title="캐릭터 연구" data-type="CHARACTER DESIGN" data-year="2026" data-description="실루엣과 표정, 의상 디테일을 중심으로 캐릭터를 연구한 작업입니다.">
+            <div class="work-image image-two"><span>02</span><b>ADD<br>IMAGE</b></div>
+            <div class="work-info"><div><h3>캐릭터 연구</h3><p>CHARACTER · 2026</p></div><span class="arrow">↗</span></div>
+          </button>
+        </article>
+        <article class="work-card" data-category="drawing">
+          <button class="work-open" data-title="형태와 선" data-type="DRAWING" data-year="2025" data-description="선의 흐름과 형태의 균형을 관찰하며 완성한 드로잉입니다.">
+            <div class="work-image image-three"><span>03</span><b>ADD<br>IMAGE</b></div>
+            <div class="work-info"><div><h3>형태와 선</h3><p>DRAWING · 2025</p></div><span class="arrow">↗</span></div>
+          </button>
+        </article>
+        <article class="work-card" data-category="illustration">
+          <button class="work-open" data-title="다른 세계의 풍경" data-type="ILLUSTRATION" data-year="2025" data-description="현실과 상상을 섞어 새로운 공간을 구성한 작품입니다.">
+            <div class="work-image image-four"><span>04</span><b>ADD<br>IMAGE</b></div>
+            <div class="work-info"><div><h3>다른 세계의 풍경</h3><p>ILLUSTRATION · 2025</p></div><span class="arrow">↗</span></div>
+          </button>
+        </article>
+        <article class="work-card" data-category="character">
+          <button class="work-open" data-title="인물 설정" data-type="CHARACTER DESIGN" data-year="2025" data-description="인물의 성격과 세계관을 시각적인 요소로 정리한 디자인입니다.">
+            <div class="work-image image-five"><span>05</span><b>ADD<br>IMAGE</b></div>
+            <div class="work-info"><div><h3>인물 설정</h3><p>CHARACTER · 2025</p></div><span class="arrow">↗</span></div>
+          </button>
+        </article>
+        <article class="work-card" data-category="drawing">
+          <button class="work-open" data-title="연습 기록" data-type="DRAWING" data-year="2025" data-description="작업 과정에서 진행한 관찰과 표현 연습을 모았습니다.">
+            <div class="work-image image-six"><span>06</span><b>ADD<br>IMAGE</b></div>
+            <div class="work-info"><div><h3>연습 기록</h3><p>DRAWING · 2025</p></div><span class="arrow">↗</span></div>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-label"><p class="eyebrow">02 / ABOUT</p><span class="about-number">A—01</span></div>
+      <div class="about-content">
+        <h2>그리는 과정에서<br>나만의 세계를 만듭니다.</h2>
+        <p>이곳은 개인 작품과 작업 과정을 기록하는 포트폴리오입니다. 캐릭터의 개성과 현실적인 표현, 장면의 분위기를 탐구하며 다양한 방식으로 그림을 그리고 있습니다.</p>
+        <div class="skill-list"><span>ILLUSTRATION</span><span>CHARACTER DESIGN</span><span>VISUAL STORYTELLING</span><span>DRAWING</span></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">03 / CONTACT</p>
+      <h2>함께 만들고 싶은<br><em>작업이 있나요?</em></h2>
+      <p>작업 문의 및 협업 제안은 아래 이메일로 연락해 주세요.</p>
+      <a class="email-link" href="mailto:your-email@example.com">your-email@example.com <span>↗</span></a>
+      <small>이메일 주소를 본인의 주소로 변경해 주세요.</small>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">ATELIER<span>.</span></a><span>© 2026 YOUR NAME. ALL RIGHTS RESERVED.</span><a href="#home">BACK TO TOP ↑</a></footer>
+
+  <div class="modal" id="workModal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="닫기">×</button>
+      <p class="eyebrow" id="modalType">ILLUSTRATION</p>
+      <h2 id="modalTitle">작품 제목</h2>
+      <p id="modalDescription"></p>
+      <span id="modalYear"></span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
